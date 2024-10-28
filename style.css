@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paddinggpt{
+    padding: 135.66px 74.29px;
+}
