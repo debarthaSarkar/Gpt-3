@@ -1,0 +1,9 @@
+#container #heading img {
+    height: 3rem;
+}
+.btn {
+    top: -9px;
+}
+#navbar ul li {
+    font-size: 0.6rem;
+}

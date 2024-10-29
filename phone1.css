@@ -1,0 +1,70 @@
+/* navbar  */
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li{
+font-size: 0.8rem;
+}
+#navbar ul {
+    margin-bottom: 14px;
+}
+
+/* home */
+#home {
+    padding: 3px 51px;
+    height: 392px;
+}
+
+#home #Heading-1 {
+    font-size: 1.9rem;
+}
+
+#home p {
+    margin-top: 4px;
+    font-size: 1.1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#container #heading img{
+    height: 4rem;
+}
+#container #features img{
+    height: 7rem;
+}
+#teacher img {
+    height: 208px;
+}
+#teacher {
+    padding: 0px 28px;
+}
+#teacher h2{
+    font-size: 1.1rem;
+}
+#teacher p{
+    font-size: 0.8rem;
+}
+/* button */
+.btn{
+    top: 4px;
+}
+/* Last section */
+#conclu {
+    overflow: hidden;
+    flex-direction: column;
+}
+#conclu div {
+    margin: 0px;
+    padding-top: 8px;
+    padding-left: 28px;
+}
+#conclu div ul li{
+    /* width: 307px; */
+    /* padding-right: 0px; */
+    font-size: 0.8rem;
+}
+#conclu div ul li a{
+    /* width: 307px; */
+    /* padding-right: 0px; */
+    font-size: 0.8rem;
+    margin: 0px;
+}

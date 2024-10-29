@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./bangalore\ branch.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 25%;
+}
+
+.content {
+    /* Center the content */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 504px;
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 10px 10px 48px 12px grey;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: 7%;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 29px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 9px 12px 9px -4px #8080807a;
+}
+button {
+    display: block;
+    width: 100%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+}
+select:hover
+{
+    box-shadow: 11px 6px 7px -3px grey;
+    border: 1px solid black;
+}
+.gender_opt
+{
+    display: inline-block;
+    width: 5%;
+    height: auto;
+    box-shadow: none;
+}
+#socialmedia ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#socialmedia ul li img{
+    height: 63px;
+    margin: 20px 47px;
+}

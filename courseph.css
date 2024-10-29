@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img[alt="teacher"] {
+    width: 270px;
+    height: 288px;
+}
+#details_i{
+    display: block;
+}
+#img{
+    display: block;
+}
